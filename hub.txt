@@ -1,0 +1,5 @@
+hub Pairs of Conserved Complementary Regions
+shortLabel CCPR
+longLabel Pairs of Conserved Complementary Regions
+genomesFile genomes.txt 
+email Savva.Konstantinov@skoltech.ru
