@@ -1,6 +1,6 @@
 track cspcg_SS
 type wigMaf
-bigDataUrl cspcg_SS.maf
+frames cspcg_SS.maf
 itemRgb on
 visibility 3
 shortLabel cspcg_ss
