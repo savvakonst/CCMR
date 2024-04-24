@@ -1,7 +1,7 @@
-track cspcg_SS
-type wigMaf
-frames cspcg_SS.maf
+track cspcg_ss
+type bed 3
+bigDataUrl cspcg_ss.bb
 itemRgb on
 visibility 3
 shortLabel cspcg_ss
-longLabel coding segments of protein-coding genes
+longLabel human coding segments of protein-coding genes
