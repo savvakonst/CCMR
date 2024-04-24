@@ -1,5 +1,5 @@
 track cspcg_ss
-type bigBed 9 +2
+type bigBed 12 +
 bigDataUrl cspcg_ss.bb
 itemRgb on
 visibility 3
