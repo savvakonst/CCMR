@@ -6,13 +6,6 @@ visibility 3
 shortLabel cspcg_ss
 longLabel human coding segments of protein-coding genes
     
-track lncRNA_SS
-type bigBed 12 +
-bigDataUrl lncRNA_SS.bb
-itemRgb on
-visibility 3
-shortLabel lncRNA_SS
-longLabel human Long non-coding RNA segments
     
 track ncpcg_SS
 type bigBed 12 +
@@ -22,10 +15,3 @@ visibility 3
 shortLabel ncpcg_SS
 longLabel human non coding segments of protein-coding genes
     
-track snoRNA_ncpcg
-type bigBed 12 +
-bigDataUrl snoRNA_ncpcg.bb
-itemRgb on
-visibility 3
-shortLabel snoRNA_ncpcg
-longLabel human Small nucleolar RNA segments
