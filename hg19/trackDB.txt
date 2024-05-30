@@ -14,4 +14,13 @@ itemRgb on
 visibility 3
 shortLabel ncpcg_SS
 longLabel human non coding segments of protein-coding genes
+
+
+track phastConst100way
+type bigBed 12 +
+bigDataUrl phastConst100way.bb
+itemRgb on
+visibility 3
+shortLabel phastConst100way
+longLabel conserved elements
     
