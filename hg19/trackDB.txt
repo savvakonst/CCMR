@@ -16,11 +16,36 @@ shortLabel ncpcg_SS
 longLabel human non coding segments of protein-coding genes
 
 
-track phastConst100way
+track non-overlapping.full
 type bigBed 3 +
-bigDataUrl phastConst100way.bb
+bigDataUrl non-overlapping.full.bb
 itemRgb on
 visibility 3
-shortLabel phastConst100way
-longLabel conserved elements
+shortLabel non-overlapping.full
+longLabel all conserved elements after fusion for non-overlapping exons
+
     
+track non-overlapping.particular
+type bigBed 3 +
+bigDataUrl non-overlapping.particular.bb
+itemRgb on
+visibility 3
+shortLabel non-overlapping.particular
+longLabel only merged conserved elements for non-overlapping exons
+
+    
+track overlapping-exons.full
+type bigBed 3 +
+bigDataUrl overlapping-exons.full.bb
+itemRgb on
+visibility 3
+shortLabel overlapping-exons.full
+longLabel all conserved elements after fusion for overlapping exons
+    
+track overlapping-exons.particular
+type bigBed 3 +
+bigDataUrl overlapping-exons.particular.bb
+itemRgb on
+visibility 3
+shortLabel merged exons regions 
+longLabel only merged conserved elements for overlapping exons   
